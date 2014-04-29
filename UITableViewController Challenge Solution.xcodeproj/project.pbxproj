@@ -14,13 +14,13 @@
 		5F8280F119105BC200F1C3A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8280F019105BC200F1C3A2 /* main.m */; };
 		5F8280F519105BC200F1C3A2 /* LLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8280F419105BC200F1C3A2 /* LLAppDelegate.m */; };
 		5F8280F819105BC200F1C3A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8280F619105BC200F1C3A2 /* Main.storyboard */; };
-		5F8280FB19105BC200F1C3A2 /* LLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8280FA19105BC200F1C3A2 /* LLViewController.m */; };
 		5F8280FD19105BC200F1C3A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8280FC19105BC200F1C3A2 /* Images.xcassets */; };
 		5F82810419105BC200F1C3A2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F82810319105BC200F1C3A2 /* XCTest.framework */; };
 		5F82810519105BC200F1C3A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8280E419105BC200F1C3A2 /* Foundation.framework */; };
 		5F82810619105BC200F1C3A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8280E819105BC200F1C3A2 /* UIKit.framework */; };
 		5F82810E19105BC200F1C3A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F82810C19105BC200F1C3A2 /* InfoPlist.strings */; };
 		5F82811019105BC200F1C3A2 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F82810F19105BC200F1C3A2 /* UITableViewController_Challenge_SolutionTests.m */; };
+		5F82811B19105ED700F1C3A2 /* LLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F82811A19105ED700F1C3A2 /* LLTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		5F8280F319105BC200F1C3A2 /* LLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAppDelegate.h; sourceTree = "<group>"; };
 		5F8280F419105BC200F1C3A2 /* LLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLAppDelegate.m; sourceTree = "<group>"; };
 		5F8280F719105BC200F1C3A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5F8280F919105BC200F1C3A2 /* LLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLViewController.h; sourceTree = "<group>"; };
-		5F8280FA19105BC200F1C3A2 /* LLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLViewController.m; sourceTree = "<group>"; };
 		5F8280FC19105BC200F1C3A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5F82810219105BC200F1C3A2 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F82810319105BC200F1C3A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5F82810B19105BC200F1C3A2 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		5F82810D19105BC200F1C3A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F82810F19105BC200F1C3A2 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		5F82811919105ED700F1C3A2 /* LLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTableViewController.h; sourceTree = "<group>"; };
+		5F82811A19105ED700F1C3A2 /* LLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				5F8280F319105BC200F1C3A2 /* LLAppDelegate.h */,
 				5F8280F419105BC200F1C3A2 /* LLAppDelegate.m */,
 				5F8280F619105BC200F1C3A2 /* Main.storyboard */,
-				5F8280F919105BC200F1C3A2 /* LLViewController.h */,
-				5F8280FA19105BC200F1C3A2 /* LLViewController.m */,
+				5F82811919105ED700F1C3A2 /* LLTableViewController.h */,
+				5F82811A19105ED700F1C3A2 /* LLTableViewController.m */,
 				5F8280FC19105BC200F1C3A2 /* Images.xcassets */,
 				5F8280EB19105BC200F1C3A2 /* Supporting Files */,
 			);
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F8280F519105BC200F1C3A2 /* LLAppDelegate.m in Sources */,
+				5F82811B19105ED700F1C3A2 /* LLTableViewController.m in Sources */,
 				5F8280F119105BC200F1C3A2 /* main.m in Sources */,
-				5F8280FB19105BC200F1C3A2 /* LLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
